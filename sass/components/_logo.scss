@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  font-family: Raleway, sans-serif;
+  font-style: Bold;
+  font-size: 26px;
+  letter-spacing: 3%;
+}
+.stud {
+  transition: color var(--timing-function) var(--transition-duration);
+}
+.logo .stud:hover,
+.logo .stud:focus {
+  outline: none;
+  color: var(--accent-color);
+}
+.logo .web:hover,
+.logo .web:focus {
+  outline: none;
+  color: var(--title-text-color);
+}
+.web {
+  padding-right: 9px;
+  color: var(--accent-color);
+  transition: color var(--timing-function) var(--transition-duration);
+}
